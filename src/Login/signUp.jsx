@@ -20,7 +20,7 @@ function Signup(props){
     function addUser(){
         console.log(user)
         setUser([...user,{username:euser, password:puser}])
-        navigate("/login")
+        navigate("/")
     }
 
     return(
